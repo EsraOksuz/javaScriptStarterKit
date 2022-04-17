@@ -1,7 +1,9 @@
 console.log("Merhaba Kodlama.io")
 
-//JS type safe değildir
-let dolarBugun = 9.30
+var dolarDun =  9.20
+var dolarBugun = 9.30 
+
+console.log(dolarBugun)
 
 let dolarDun = 9.20
 dolarDun = "9.20"
