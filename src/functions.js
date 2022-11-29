@@ -100,3 +100,28 @@ let newProductName, newUnitPrice, newQuantity
 console.log(newProductName)
 console.log(newUnitPrice)
 console.log(newQuantity)
+
+
+function isPrime(...numbers){
+    
+    for (let i = 0; i < numbers.length; i++) {
+        let Prime = false;
+        var element = numbers[i];
+        for(let j=2; j<element ;j++){
+            if( element % j == 0){
+                Prime = true;
+                break
+            }
+        } 
+        if(!Prime){
+            console.log(element)
+
+        }
+    }
+}
+
+
+
+let numList=[1,4,34,546,34,23,13,5,7,9,4,3]
+ 
+isPrime(...numList)
