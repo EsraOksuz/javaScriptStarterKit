@@ -1,0 +1,15 @@
+function isPrimeNumber(...numbers){
+    for(let i =0; i<numbers.length; i++){
+        let prime = false
+        var element = numbers[i]
+        for (let j = 2; j < numbers[i]; j++) {
+            if (numbers[j] % j ) {
+                prime=true
+            }           
+        }
+        console.log(element, prime)
+    }
+
+}
+
+isPrimeNumber(5,7,4,22,66,45,13)
