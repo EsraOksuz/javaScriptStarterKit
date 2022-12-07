@@ -80,9 +80,9 @@ function someFunction([small1],number) {
 
 someFunction(populations)
 
-let category ={id:1,name:"içecek"}
+let category ={id:1,name1:"içecek"}
 console.log(category.id)
-console.log(category["name"])
+console.log(category["name1"])
 
 let {id,name1}= category
 console.log(id)

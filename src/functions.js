@@ -48,6 +48,8 @@ let sayi2 = 20
 sayi1 = sayi2
 sayi2 = 100
 console.log(sayi1)
+// sayılar değer tip (sadece stackte gerçekleşir)
+//objeler referans tip (stack + heap mantığı)
 
 function addToCart4(products) {
     console.log(products)
